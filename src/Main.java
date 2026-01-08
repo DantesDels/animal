@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Cow Cow = new Cow();
-        Cow.makeSound();
+        Cow cow = new Cow();
+        cow.makeSound();
         Animal.display();
     }
 }
