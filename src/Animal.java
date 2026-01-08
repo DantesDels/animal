@@ -3,6 +3,8 @@ public abstract class Animal {
     protected int age;
     protected String sound;
 
+    private String secret;
+
     public void makeSound() {
         System.out.println(sound);
     }
@@ -14,4 +16,12 @@ public abstract class Animal {
     public abstract void eat();
 
     public abstract void eat(int amount);
+
+    public void setSecret(String secret) {
+        this.secret = secret;
+    }
+
+    public String getSecret() {
+        return secret;
+    }
 }

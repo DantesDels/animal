@@ -8,5 +8,7 @@ public class Main {
         dog.eat();
         dog.eat(12);
         cow.eat(32);
+        dog.setSecret("All animals are dead.");
+        System.out.println(dog.getSecret());
     }
 }
