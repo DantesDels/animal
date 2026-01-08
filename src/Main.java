@@ -11,8 +11,9 @@ public class Main {
         dog.eat(12);
         cow.eat(32);
         dog.setSecret("Dog said DOOM.");
-        // URL : https://www.youtube.com/watch?v=hriqT9QRqmk
+        System.out.println("Reférence à DOOM : https://www.youtube.com/watch?v=hriqT9QRqmk");
         System.out.println(dog.getSecret());
-        dog.play();
+        dog.plays();
+        cow.plays();
     }
 }

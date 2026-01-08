@@ -1,4 +1,4 @@
-public class Cow extends Animal {
+public class Cow extends Animal implements Pet {
 
     public Cow() {
         this.name = "Cow";
@@ -14,5 +14,11 @@ public class Cow extends Animal {
     @Override
     public void eat(int amount){
         System.out.println("MeuhMeuh is eating " + amount + " things");
+    }
+
+    @Override
+    public void plays(){
+        System.out.println("Cow says 'Ouaf Ouaf'");
+        System.out.println("Because of that, cow dies from a stroke");
     }
 }
