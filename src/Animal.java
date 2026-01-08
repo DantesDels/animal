@@ -6,4 +6,8 @@ public abstract class Animal {
     public void makeSound() {
         System.out.println(sound);
     }
+
+    public static void display() {
+        System.out.println("All animals make sounds.");
+    }
 }
