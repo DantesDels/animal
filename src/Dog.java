@@ -1,7 +1,7 @@
-public class Dog extends Animal implements Pet {
+public class Dog extends Animal implements Pet, Wild {
 
     public Dog() {
-        this.name = "Doglas";
+        this.name = "Doglas, the Dog";
     }
 
     @Override
@@ -17,5 +17,10 @@ public class Dog extends Animal implements Pet {
     @Override
     public void plays(){
         System.out.println("Dog plays with the Ball");
+    }
+
+    @Override
+    public void hunts(){
+        System.out.println("Dog is hunted by an Owner, captured and has now a collar");
     }
 }

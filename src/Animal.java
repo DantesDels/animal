@@ -24,4 +24,8 @@ public abstract class Animal {
     public String getSecret() {
         return secret;
     }
+
+    public String getName() {
+        return name;
+    }
 }

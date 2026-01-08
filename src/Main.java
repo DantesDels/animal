@@ -15,5 +15,10 @@ public class Main {
         System.out.println(dog.getSecret());
         dog.plays();
         cow.plays();
+        Owner owner = new Owner();
+        // Animal ownerAnimal = new Animal("Bidule"); -> 'Animal' is abstract; cannot be instantiated
+        dog.hunts();
+        owner.addAnimal(dog);
+        owner.showAnimals();
     }
 }
