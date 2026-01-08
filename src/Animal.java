@@ -10,4 +10,8 @@ public abstract class Animal {
     public static void display() {
         System.out.println("All animals make sounds.");
     }
+
+    public abstract void eat();
+
+    public abstract void eat(int amount);
 }
